@@ -1,0 +1,23 @@
+.contGloMain {
+    background-color: white;
+    grid-column: 1/3;
+    border-bottom: 5px solid rgb(166, 226, 166);
+
+    .contenidoMain {
+        background-color: white;
+        width: 75vw;
+        max-width: 1500px;
+        min-width: 50px;
+        margin: auto;
+
+        .textoMain {
+            margin: 5px;
+            font-size: 40px;
+        }
+
+        .imgMain {
+            width: 100%;
+        }
+    }
+
+}
