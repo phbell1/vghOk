@@ -1,0 +1,10 @@
+@mixin formato ($color, $tamanoLetra,$anchoLetra, $alineacion){
+    background-color: none;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: $color;
+    font-size: $tamanoLetra;
+    font-weight: $anchoLetra;
+    text-align: $alineacion;
+    margin: 0px;
+    padding: 0px 5px 0px 5px;
+};
