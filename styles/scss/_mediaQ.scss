@@ -1,4 +1,4 @@
-@media (max-width: 563px) {
+@media (max-width: 775px) {
     .contGlobal {
         .contGloHeader {
             .contMenu {
@@ -52,6 +52,16 @@
 
         .contGloFooter {
             .contenidoFooter {
+                .contenidoMediosPago{
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    .txtMp {
+                        font-size: 15px;  
+                    }
+                    .imgPay{
+                        width: 100%;
+                    }
+                }
                 .contenidoContacto {
 
                     ul {

@@ -105,7 +105,7 @@ a:hover {
   border-bottom: 1px solid white;
   padding-left: 180px;
 }
-.contGloMain .sectorA .contGrid .boxC .textLa {
+.contGloMain .sectorA .contGrid .textLa {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 50px;
   color: white;
@@ -114,22 +114,23 @@ a:hover {
   background-color: rgb(166, 226, 166);
   text-align: center;
 }
-.contGloMain .sectorB {
+
+.sectorB {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.contGloMain .sectorB .cardS {
+.sectorB .cardS {
   width: 18rem;
 }
-.contGloMain .sectorB .cardTx {
+.sectorB .cardTx {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.contGloMain .sectorB .botonS {
+.sectorB .botonS {
   background-color: rgb(166, 226, 166);
   border-color: rgb(166, 226, 166);
   color: white;
 }
-.contGloMain .sectorB .botonS:hover {
+.sectorB .botonS:hover {
   background-color: black;
   border-color: rgb(166, 226, 166);
   color: white;
@@ -145,12 +146,14 @@ a:hover {
   background-color: none;
 }
 .contGloFooter .contenidoFooter .contenidoMediosPago {
-  background-color: none;
-  display: flex;
-  justify-content: center;
   border-top: 1px solid rgb(166, 226, 166);
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.contGloFooter .contenidoFooter .contenidoMediosPago p {
+.contGloFooter .contenidoFooter .contenidoMediosPago .imgPay {
+  width: 100%;
+}
+.contGloFooter .contenidoFooter .contenidoMediosPago .txtMp {
   background-color: none;
   padding-top: 20px;
   color: black;
@@ -209,7 +212,7 @@ a:hover {
   margin: 0px;
 }
 
-@media (max-width: 563px) {
+@media (max-width: 775px) {
   .contGlobal .contGloHeader .contMenu {
     display: flex;
     flex-direction: column;
@@ -242,6 +245,16 @@ a:hover {
   }
   .contGlobal .contGloMain .contGrid .boxC .textLa {
     font-size: 25px;
+  }
+  .contGlobal .contGloFooter .contenidoFooter .contenidoMediosPago {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .contGlobal .contGloFooter .contenidoFooter .contenidoMediosPago .txtMp {
+    font-size: 15px;
+  }
+  .contGlobal .contGloFooter .contenidoFooter .contenidoMediosPago .imgPay {
+    width: 100%;
   }
   .contGlobal .contGloFooter .contenidoFooter .contenidoContacto ul {
     flex-wrap: wrap;
