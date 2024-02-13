@@ -24,7 +24,7 @@
                             flex-direction: column;
 
                             a {
-                                font-size: 50px;
+                                font-size: 42px;
                                 display: flex;
                                 flex-direction: column;
                                 border-top: none;
@@ -37,31 +37,59 @@
         }
 
         .contGloMain {
-            .textTmain {  
-                padding-left:5px;
-            }
-            .contGrid {
-                .boxC {
-                    .textLa {
-                        font-size: 25px;
+            .sectorA {
+                .tBox {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .textTmain {
+                        width: fit-content;
                     }
                 }
 
+                .contGrid {
+
+                    .boxC {
+                        .textLa {
+                            font-size: 25px;
+                        }
+                    }
+
+                }
             }
+
+            .sectorB {
+                .cardSp {
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+
+                }
+            }
+            
+            .textLb {
+                font-size: 35px;
+            }
+            
+           
+            
         }
 
         .contGloFooter {
             .contenidoFooter {
-                .contenidoMediosPago{
+                .contenidoMediosPago {
                     flex-wrap: wrap;
                     justify-content: center;
+
                     .txtMp {
-                        font-size: 15px;  
+                        font-size: 15px;
                     }
-                    .imgPay{
+
+                    .imgPay {
                         width: 100%;
                     }
                 }
+
                 .contenidoContacto {
 
                     ul {
