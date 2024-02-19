@@ -1,7 +1,6 @@
 .contGloMain {
     grid-column: 1/3;
 
-
     .sectorA {
         .tBox {
             background-color: rgb(166, 226, 166);
@@ -23,7 +22,6 @@
             }
 
         }
-
         .contGrid {
             background-color: none;
         }
@@ -43,17 +41,18 @@
         .cardS {
             width: 18rem;
         }
-        .cardSt{
+
+        .cardSt {
             font-size: 35px;
 
         }
 
-        .cardTline{
-            padding-bottom:42px;
+        .cardTline {
+            padding-bottom: 42px;
         }
 
-        .cardTd{
-            padding-bottom:22px;
+        .cardTd {
+            padding-bottom: 22px;
         }
 
         .cardTx {
@@ -63,19 +62,14 @@
 
         .botonS {
             background-color: rgb(166, 226, 166);
-            border:none;
+            border: none;
             color: white;
         }
 
         .botonS:hover {
-            background-color: black;
+            background-color:#157347;
             color: white;
         }
-
-
-
-
-
 
     }
 

@@ -148,7 +148,7 @@ a:hover {
   color: white;
 }
 .contGloMain .sectorB .botonS:hover {
-  background-color: black;
+  background-color: #157347;
   color: white;
 }
 
@@ -179,6 +179,28 @@ a:hover {
   color: rgb(166, 226, 166);
   margin-top: 5px;
   margin-left: 30px;
+}
+
+.formFormat {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.form-txt-format {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.form-but-format {
+  background-color: rgb(166, 226, 166);
+  border: none;
+}
+
+.textCont {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  color: white;
+  padding: 50px;
+  border: 2px solid rgb(166, 226, 166);
+  background-color: rgb(166, 226, 166);
 }
 
 .contGloFooter {
@@ -300,6 +322,9 @@ a:hover {
   }
   .contGlobal .contGloMain .textLb {
     font-size: 35px;
+  }
+  .contGlobal .contGloMain .textCont {
+    font-size: 15px;
   }
   .contGlobal .contGloFooter .contenidoFooter .contenidoMediosPago {
     flex-wrap: wrap;
