@@ -6,12 +6,8 @@
 
     .infoVar {
         background-color: map-get($estilosComunes, colorVerde);
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
 
-        
+
         h1 {
             font-family: map-get($estilosComunes, fuentePrincipal);
             font-size: 16px;
@@ -19,10 +15,16 @@
             color: white;
             padding-top: 5px;
             box-sizing: border-box;
-            .icoT{
+
+            .icoT {
                 margin-left: 5px;
             }
         }
+        
+        .barHiddenMob {
+            display: none;
+        }
+
     }
 
     .contMenu {
@@ -37,7 +39,7 @@
         }
 
         .navMenu {
-            background-color:map-get($estilosComunes, colorFondo);
+            background-color: map-get($estilosComunes, colorFondo);
             display: flex;
             flex-wrap: wrap;
             align-content: end;

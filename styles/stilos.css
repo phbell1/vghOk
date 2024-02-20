@@ -28,10 +28,6 @@ a:hover {
 }
 .contGloHeader .infoVar {
   background-color: rgb(166, 226, 166);
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
 }
 .contGloHeader .infoVar h1 {
   font-family: Tahoma;
@@ -43,6 +39,9 @@ a:hover {
 }
 .contGloHeader .infoVar h1 .icoT {
   margin-left: 5px;
+}
+.contGloHeader .infoVar .barHiddenMob {
+  display: none;
 }
 .contGloHeader .contMenu {
   background-color: white;
@@ -141,6 +140,9 @@ a:hover {
 }
 .contGloMain .sectorB .cardTx {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.contGloMain .sectorB .cardParr {
+  margin: 0px;
 }
 .contGloMain .sectorB .botonS {
   background-color: rgb(166, 226, 166);
@@ -278,6 +280,28 @@ a:hover {
 }
 
 @media (max-width: 775px) {
+  .contGlobal .contGloHeader .infoVar {
+    padding-bottom: 10px;
+  }
+  .contGlobal .contGloHeader .infoVar .barHidden {
+    display: none;
+  }
+  .contGlobal .contGloHeader .infoVar .barHiddenMob {
+    display: inline-block;
+  }
+  .contGlobal .contGloHeader .infoVar p {
+    font-family: Tahoma;
+    font-size: 16px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+  }
+  .contGlobal .contGloHeader .infoVar p .icoT {
+    margin-left: 5px;
+  }
   .contGlobal .contGloHeader .contMenu {
     display: flex;
     flex-direction: column;

@@ -1,6 +1,34 @@
 @media (max-width: 775px) {
     .contGlobal {
         .contGloHeader {
+            .infoVar {
+                padding-bottom: 10px;
+
+                .barHidden {
+                    display: none;
+                }
+
+                .barHiddenMob {
+                    display:inline-block;
+                }
+
+                p {
+                    font-family: map-get($estilosComunes, fuentePrincipal);
+                    font-size: 16px;
+                    padding-top: 2px;
+                    padding-bottom: 2px ;
+                    text-align: center;
+                    color: white;
+                    box-sizing: border-box;
+                    margin: 0;
+
+                    .icoT {
+                        margin-left: 5px;
+                    }
+
+                }
+            }
+
             .contMenu {
                 display: flex;
                 flex-direction: column;
@@ -66,18 +94,18 @@
 
                 }
             }
-            
+
             .textLb {
                 font-size: 35px;
             }
 
-            .textCont{  
+            .textCont {
                 font-size: 15px;
-             
+
             }
-            
-           
-            
+
+
+
         }
 
         .contGloFooter {
